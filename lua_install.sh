@@ -1,6 +1,5 @@
+apt update && apt-get install libreadline6-dev
 git clone --depth=1 https://github.com/lua/lua.git
-apt-get update
-apt-get install libreadline6-dev
 cd lua/
 make
 mkdir /usr/include/lua
